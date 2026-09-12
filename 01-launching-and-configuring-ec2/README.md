@@ -13,7 +13,7 @@ AWS infrastructure pricing varies significantly by region. For this deployment, 
 * **Amazon Machine Image (AMI) Selection:** I utilized a pre-configured AMI to standardize the OS environment. This functions as a reusable blueprint, accelerating deployments and ensuring environment consistency.
 
 *AMI Configuration Profile:*
-![AMI Selection](images/1b-ami-selection.png)
+![AMI Selection Screen](./images/1a.png)
 
 2. Computing Architecture (Instance Type Selection)
 To align with the application workload requirements, I evaluated virtual hardware specs using the EC2 instance advisory guidance to avoid over-provisioning resource capacity.
