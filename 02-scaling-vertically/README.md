@@ -13,7 +13,7 @@ Before altering running infrastructure, active computing requirements must be ev
 1. Computing Architecture — Instance Type Comparison
 To align virtual hardware configurations with growing application workloads, I evaluated available EC2 instance types to determine the optimal compute and memory tier for the task.
 
-![Comparing Instance Types](./images/2a.png)
+![Comparing Instance Types](./images/2A.png)
 
 2. Establishing Remote Connectivity
 Initiated the process to connect securely to the target web tier instance from the AWS infrastructure dashboard.
