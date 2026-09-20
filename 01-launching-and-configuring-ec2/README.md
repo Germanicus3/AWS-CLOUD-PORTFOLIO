@@ -45,60 +45,32 @@ The configuration was successfully completed and the EC2 instance was launched a
 
 ![Accessing EC2](./images/1E.png)
 
-4. EC2 Configuration
-Configured the EC2 instance using AWS services and features available within the EC2 console.
-5. Instance Created
-Successfully launched and created the EC2 instance.
-6. Web Server Running
-Successfully configured and launched a web server on the EC2 instance.
-7. Horizontal scaling -  Adding an EC2 Instance
-Launched an additional EC2 instance using the existing AMI.
-8.Fault Tolerance
-Deployed the additional instance in another Availability Zone to improve fault tolerance.
+6. Web Server Deployment
 
-* **Amazon Machine Image (AMI) Selection:** I utilized a pre-configured AMI to standardize the OS environment. This functions as a reusable blueprint, accelerating deployments and ensuring environment consistency.
+Configured the EC2 instance to host a web server and verified that the server was successfully running and accessible.
 
-*AMI Configuration Profile:*
-![AMI Selection Screen](./images/1a.png)
+![Accessing EC2](./images/1F.png)
 
-2. Computing Architecture (Instance Type Selection)
-To align with the application workload requirements, I evaluated virtual hardware specs using the EC2 instance advisory guidance to avoid over-provisioning resource capacity.
+7. AMI-Based Instance Deployment
 
-*Hardware Tier Matrix:*
-![Instance Advisory Advice](images/1c-instance-type.png)
+Used the existing AMI configuration to rapidly provision an additional EC2 instance, demonstrating how reusable machine images can streamline infrastructure deployment.
 
-3. Integrated Security & Monitoring Configurations
-During configuration, I leveraged standalone, native AWS services tightly embedded within the EC2 console dashboard:
-* **Network Access Control:** Structured inbound security group rules to safely expose HTTP/HTTPS traffic.
-* **Storage Allocation:** Configured root Elastic Block Store (EBS) volumes with encryption properties.
-* **Observability:** Enabled monitoring metrics to track instance performance.
+![Accessing EC2](./images/1G.png)
 
- *EC2 UI Integrations:*
-![Integrated Services Management](images/1d-integrated-services.png)
 
----
 
-🚀 Deployment Results
+8. Availability Zone Distribution & Fault Tolerance
 
-Instance Initialization Proof
-The configuration compiled successfully, and the virtual hardware passed initial AWS health checks.
+Deployed the additional EC2 instance in a separate Availability Zone to demonstrate workload distribution and improve infrastructure resilience against an Availability Zone-level failure.
 
-🖼️ *AWS Status Validation:*
-![Instance Lifecycle Creation](images/1e-instance-created.png)
+![Accessing EC2](./images/1H.png)
 
-### Live Web Server Validation
-The Apache/Nginx web server was initialized via user data scripts and successfully served dynamic web traffic over the public internet.
 
-🖼️ *Live Endpoint Verification:*
-![Running Public Web Server](images/1f-webserver-running.png)
+ 🏁 Project Summary & Technical Takeaways
 
----
+This deployment successfully demonstrates the end-to-end provisioning, hardening, and scaling of a resilient web tier on AWS. By progressing from a single instance to a multi-Availability Zone architecture, the project models real-world enterprise infrastructure requirements.
 
-🔄 High Availability & Fault Tolerance (1G & 1H)
-To prevent a single point of failure (SPOF) if an entire AWS data center goes offline, I cloned the configuration pattern:
-1. Captured the active architecture configuration properties.
-2. Launched a **second identical EC2 instance** into a **different Availability Zone (AZ)**.
-3. This creates a multi-AZ architecture layer, ensuring our application remains online even if one zone experiences an outage.
-
-*Fault Tolerant Multi-AZ Infrastructure:*
-![Multi-AZ Redundancy Layout](images/1g-multi-az-replica.png)
+Core Competencies Demonstrated
+High Availability & Fault Tolerance: Eliminated single points of failure by distributing duplicate web server workloads across multiple Availability Zones using reusable AMIs for rapid horizontal scaling.
+Cloud Cost Governance: Prioritized pragmatic resource allocation by evaluating regional pricing variances and rightsizing instance choices to prevent budget overruns.
+Operational Readiness: Maintained production-grade standards by preparing paths for automated EBS snapshot policies, detailed CloudWatch monitoring, and Elastic Load Balancer (ELB) integration.
