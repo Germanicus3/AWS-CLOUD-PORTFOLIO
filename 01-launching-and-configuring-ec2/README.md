@@ -20,13 +20,13 @@ Before deployment, I considered the selected AWS Region, as resource availabilit
 
 I selected an Amazon Machine Image (AMI) as the foundational template for the EC2 instance. The AMI provides the operating system and preconfigured software environment required for deployment.
 
-![Accessing EC2](./images/1b.png)
+![Accessing EC2](./images/1B.png)
 
 3. Computing Architecture — Instance Type Selection
 
 To align the virtual hardware configuration with the application workload, I evaluated available EC2 instance types using AWS advisory guidance to avoid unnecessary resource allocation.
 
-![Accessing EC2](./images/1c.png)
+![Accessing EC2](./images/1C.png)
 
 4. Post-Launch Deployment Verification
 The EC2 compute instance was successfully initialized and provisioned. To ensure production-grade reliability, the next phase focuses on infrastructure hardening and day-2 operations:
@@ -36,14 +36,14 @@ The EC2 compute instance was successfully initialized and provisioned. To ensure
 * Data Resilience:** Implementing automated Amazon EBS snapshot policies for point-in-time disaster recovery.
 
 
-![Accessing EC2](./images/1d.png)
+![Accessing EC2](./images/1D.png)
 
 
 5. EC2 Instance Deployment
 
 The configuration was successfully completed and the EC2 instance was launched and transitioned to a running state.
 
-![Accessing EC2](./images/1e.png)
+![Accessing EC2](./images/1E.png)
 
 4. EC2 Configuration
 Configured the EC2 instance using AWS services and features available within the EC2 console.
