@@ -1,14 +1,60 @@
-AWS Cloud Quest: Scalable & Fault-Tolerant EC2 Web Server
+Scalable & Fault-Tolerant EC2 Web Server
 
 📌 Project Overview
-This project documents the deployment of a secure, highly available web server using Amazon Elastic Compute Cloud (EC2), completed as part of the **AWS Cloud Quest** hands-on lab. The deployment covers initial instance provisioning, cost management considerations, integrated security services, and multi-Availability Zone (AZ) architecture for fault tolerance.
+This project documents the deployment of a secure, highly available web server using Amazon Elastic Compute Cloud (EC2). The deployment covers initial instance provisioning, cost management considerations, integrated security services, and multi-Availability Zone (AZ) architecture for fault tolerance.
 
 ---
 
 🛠️ Step-by-Step Implementation
 
-1. Regional Cost Awareness & AMI Selection
-AWS infrastructure pricing varies significantly by region. For this deployment, the **[Insert Your Region, e.g., us-east-1]** region was selected to optimize performance and budget boundaries.
+* Regional Cost Awareness & AMI Selection
+AWS infrastructure pricing varies significantly by region.
+
+1. AWS Region & EC2 Instance Launch
+
+Before deployment, I considered the selected AWS Region, as resource availability and pricing can vary by Region. I then accessed the Amazon EC2 console and initiated the instance launch process.
+
+![Accessing EC2](./images/1a.png)
+
+2. Operating System & Environment Selection
+
+I selected an Amazon Machine Image (AMI) as the foundational template for the EC2 instance. The AMI provides the operating system and preconfigured software environment required for deployment.
+
+![Accessing EC2](./images/1b.png)
+
+3. Computing Architecture — Instance Type Selection
+
+To align the virtual hardware configuration with the application workload, I evaluated available EC2 instance types using AWS advisory guidance to avoid unnecessary resource allocation.
+
+![Accessing EC2](./images/1c.png)
+
+4. Post-Launch Deployment Verification
+The EC2 compute instance was successfully initialized and provisioned. To ensure production-grade reliability, the next phase focuses on infrastructure hardening and day-2 operations:
+
+* Resource Governance:** Establishing baseline CloudWatch billing and resource metric monitors.
+* High Availability Architecture:** Preparing the network interface to receive traffic from an Elastic Load Balancer (ELB).
+* Data Resilience:** Implementing automated Amazon EBS snapshot policies for point-in-time disaster recovery.
+
+
+![Accessing EC2](./images/1d.png)
+
+
+5. EC2 Instance Deployment
+
+The configuration was successfully completed and the EC2 instance was launched and transitioned to a running state.
+
+![Accessing EC2](./images/1e.png)
+
+4. EC2 Configuration
+Configured the EC2 instance using AWS services and features available within the EC2 console.
+5. Instance Created
+Successfully launched and created the EC2 instance.
+6. Web Server Running
+Successfully configured and launched a web server on the EC2 instance.
+7. Horizontal scaling -  Adding an EC2 Instance
+Launched an additional EC2 instance using the existing AMI.
+8.Fault Tolerance
+Deployed the additional instance in another Availability Zone to improve fault tolerance.
 
 * **Amazon Machine Image (AMI) Selection:** I utilized a pre-configured AMI to standardize the OS environment. This functions as a reusable blueprint, accelerating deployments and ensuring environment consistency.
 
