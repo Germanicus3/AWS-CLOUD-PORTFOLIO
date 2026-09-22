@@ -41,8 +41,13 @@ Reviewed the VPC routing configuration required for the subnet to communicate wi
 6. Database Security Group — Inbound Access
 
 Configured an inbound rule in the **database security group** to allow the database to receive authorized traffic from the web server, establishing controlled application-to-database connectivity.
+<p align="center">
+    <img src="images/3 issue fixed.png" width="48%" alt="Issue Fixed" />
+    <img src="images/3issue pic.png" width="48%" alt="Issue Picture" />
+    </p>
 
-![Database Security Group](./images/3F.png)
+
+![Database Security Group](./images/3issue pic.png)
 
 
 
