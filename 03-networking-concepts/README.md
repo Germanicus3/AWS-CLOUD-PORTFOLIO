@@ -47,19 +47,16 @@ Configured an inbound rule in the **database security group** to allow the datab
     </p>
 
 
-![Database Security Group](./images/3issue pic.png)
-
-
 
 🏁 Project Summary & Technical Takeaways
 
-This project demonstrates the configuration and management of **AWS VPC networking and traffic controls**, including route tables, subnet connectivity, Internet Gateway routing, security groups, and controlled communication between application and database resources.
+This project demonstrates the configuration and management of AWS VPC networking and traffic controls, including route tables, subnet connectivity, Internet Gateway routing, security groups, and controlled communication between application and database resources.
 
 🛠️ Core Competencies Demonstrated
 
-* VPC Networking:** Configured and evaluated AWS networking components supporting EC2 workloads.
-* Traffic Routing:** Used route tables to control traffic between subnets, networks, and the Internet.
-* Network Security:** Applied security group rules to control inbound traffic at the resource level.
-* Application-to-Database Connectivity:** Configured controlled communication between web and database resources.
-* Cloud Network Architecture:** Demonstrated practical understanding of how VPCs, subnets, route tables, Internet Gateways, and security groups operate together.
+* VPC Networking: Configured and evaluated AWS networking components supporting EC2 workloads.
+* Traffic Routing: Used route tables to control traffic between subnets, networks, and the Internet.
+* Network Security: Applied security group rules to control inbound traffic at the resource level.
+* Application-to-Database Connectivity: Configured controlled communication between web and database resources.
+* Cloud Network Architecture: Demonstrated practical understanding of how VPCs, subnets, route tables, Internet Gateways, and security groups operate together.
 
