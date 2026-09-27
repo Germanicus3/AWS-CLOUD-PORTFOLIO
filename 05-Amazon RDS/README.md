@@ -80,7 +80,11 @@ Created an Amazon RDS Read Replica to distribute read operations away from the p
 
 This architecture helps reduce the read workload on the primary database and provides additional capacity for applications with read-intensive workloads.
 
-![RDS Read Replica](images/5i.png)
+<p align="center">
+  <img src="images/5i.png" width="32%" alt="Read Replica Configuration" />
+  <img src="images/5ib.png" width="32%" alt="Read Replica Creation" />
+  <img src="images/5ic.png" width="32%" alt="Read Replica Verification" />
+</p>
 
 ---
 
