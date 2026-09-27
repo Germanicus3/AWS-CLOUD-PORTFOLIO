@@ -85,7 +85,6 @@ This architecture helps reduce the read workload on the primary database and pro
   <img src="images/5ib.png" height="220" alt="Read Replica Creation" />
   <img src="images/5ic.png" height="220" alt="Read Replica Verification" />
 </p>
-
 ---
 
 # 🏁 Project Summary & Technical Takeaways
