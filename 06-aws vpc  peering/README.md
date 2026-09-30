@@ -84,13 +84,13 @@ Added an inbound security group rule to the Finance environment to permit the re
 
 10. Verifying Marketing-to-Finance Connectivity
 
-Tested the completed network configuration to verify communication between the Marketing and Finance VPCs after implementing the peering connection, routing, and security controls.
+Tested the completed network configuration to verify communication between the Marketing, Finance and Developer VPCs after implementing the peering connection, routing, and security controls.
 
 
 <p align="center">
   <img src="images/6i.png" height="220" alt="Read Replica Configuration" />
   <img src="images/6i1.png" height="220" alt="Read Replica Creation" />
-  <img src="images/6i2.png" height="220" alt="Read Replica Verification" />
+  <img src="images/6i2 all depts connect.png" height="220" alt="Read Replica Verification" />
 </p>
 ---
 
