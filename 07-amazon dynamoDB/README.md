@@ -1,44 +1,23 @@
-# Project 7 — Amazon DynamoDB: NoSQL Data Modeling & Query Operations
+Project 7 — Amazon DynamoDB: NoSQL Data Modeling & Query Operations
 
-## 📋 Project Overview
+📋 Project Overview
 
-This project demonstrates the creation and management of a **serverless NoSQL database using Amazon DynamoDB**. The implementation covers table creation, primary key design, item management, attribute creation, and data retrieval using **Sort** and **Scan** operations.
+This project demonstrates the creation and management of a serverless NoSQL database using Amazon DynamoDB. The implementation covers table creation, primary key design, item management, attribute creation, and data retrieval using sort and Scan operations.
 
-The project demonstrates how DynamoDB organizes data using a **partition key and sort key** and provides flexible access to items within a table.
 
-## 🎯 Objectives
+🔧 Implementation
 
-* Create and configure a DynamoDB table.
-* Design a table using partition and sort keys.
-* Add and manage items within the table.
-* Create additional attributes for stored items.
-* Retrieve and organize data using DynamoDB operations.
-* Use scanning to examine items stored in the table.
+1. Creating a DynamoDB Table
 
-## 🛠️ AWS Services & Components
-
-* **Amazon DynamoDB**
-* **Partition Key**
-* **Sort Key**
-* **DynamoDB Items & Attributes**
-* **DynamoDB Sort**
-* **DynamoDB Scan**
-
----
-
-# 🔧 Implementation
-
-## 1. Creating a DynamoDB Table
-
-Created a new **Amazon DynamoDB table** to establish the NoSQL database environment.
+Created a new Amazon DynamoDB table to establish the NoSQL database environment.
 
 ![Creating DynamoDB Table](images/7a.png)
 
 ---
 
-## 2. Configuring the DynamoDB Table
+2. Configuring the DynamoDB Table
 
-Configured the table's key structure by defining the **partition key** and **sort key**.
+Configured the table's key structure by defining the partition key and sort key.
 
 The partition key determines how DynamoDB distributes items across partitions, while the sort key organizes related items within the same partition key.
 
@@ -46,7 +25,7 @@ The partition key determines how DynamoDB distributes items across partitions, w
 
 ---
 
-## 3. Adding Items to the Table
+3. Adding Items to the Table
 
 After successfully creating the table, added data items to populate the DynamoDB database.
 
@@ -54,7 +33,7 @@ After successfully creating the table, added data items to populate the DynamoDB
 
 ---
 
-## 4. Adding Additional Attributes
+4. Adding Additional Attributes
 
 Added additional attributes to the DynamoDB items to store supplementary data associated with each record.
 
@@ -64,7 +43,7 @@ DynamoDB uses a flexible schema, allowing items to contain additional attributes
 
 ---
 
-## 5. Sorting DynamoDB Data
+5. Sorting DynamoDB Data
 
 Used the **Sort** functionality to organize and examine the stored items based on the available table attributes and key structure.
 
