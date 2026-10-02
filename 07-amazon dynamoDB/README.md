@@ -51,7 +51,7 @@ Used the **Sort** functionality to organize and examine the stored items based o
 
 ---
 
-## 6. Scanning the DynamoDB Table
+6. Scanning the DynamoDB Table
 
 Performed a **Scan** operation to retrieve and examine items stored within the DynamoDB table.
 
@@ -61,13 +61,13 @@ A Scan evaluates items across the table rather than targeting a specific partiti
 
 ---
 
-# 🏁 Project Summary & Technical Takeaways
+🏁 Project Summary & Technical Takeaways
 
 This project demonstrates the implementation of a **serverless NoSQL database using Amazon DynamoDB**, including table creation, key design, item management, flexible attributes, and data retrieval operations.
 
 The implementation demonstrates practical understanding of DynamoDB's **key-value and document data model**, including how partition keys, sort keys, and table operations support scalable NoSQL data management.
 
-## 🛠️ Core Competencies Demonstrated
+🛠️ Core Competencies Demonstrated
 
 * **NoSQL Database Design:** Created and configured a DynamoDB table using a key-based data model.
 * **Data Modeling:** Defined partition and sort keys to structure and organize database items.
