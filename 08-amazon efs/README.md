@@ -40,15 +40,34 @@ Configured the EFS file system and verified its assigned **File System ID**:
 
 The EFS file system was configured to support access from the required EC2 environments.
 
-![EFS Configuration](images/8D.png)
+<table border="0">
+  <!-- Row 1: EFS Setup & Details -->
+  <tr>
+    <th width="50%">1. EFS Configuration</th>
+    <th width="50%">2. EFS File System Details</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="images/8D.png" alt="EFS Configuration" width="100%"></td>
+    <td valign="top"><img src="images/8D1.png" alt="EFS File System Details" width="100%"></td>
+  </tr>
+  
+  <!-- Row 2: Mount Configuration & Instance Prep -->
+  <tr>
+    <th>3. EFS Mount Configuration</th>
+    <th>4. Preparing EC2 for EFS</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="images/8D2.png" alt="EFS Mount Configuration" width="100%"></td>
+    <td valign="top"><img src="images/8E.png" alt="Preparing EC2 for EFS" width="100%"></td>
+  </tr>
+</table>
 
-![EFS File System Details](images/8D1.png)
+<!-- Row 3: Final step centered underneath -->
+<p align="center">
+  <strong>5. Creating EFS Mount Directory</strong><br>
+  <img src="images/8E1.png" alt="Creating EFS Mount Directory" width="70%">
+</p>
 
-![EFS Mount Configuration](images/8D2.png)
-
-![Preparing EC2 for EFS](images/8E.png)
-
-![Creating EFS Mount Directory](images/8E1.png)
 
 ---
 
