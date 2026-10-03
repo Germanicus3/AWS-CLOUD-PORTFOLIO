@@ -55,7 +55,7 @@ Understanding AWS pricing models and applying cost-aware decisions when designin
   <tr>
     <td width="160" valign="middle" align="center">
       <a href="YOUR_CREDLY_SHARE_LINK_HERE" target="_blank">
-        <img src="https://credly.com" alt="AWS Certified Cloud Practitioner Badge" width="140">
+        <img src="08-amazon efs/images/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner Badge" width="140">
       </a>
     </td>
     <td valign="middle">
