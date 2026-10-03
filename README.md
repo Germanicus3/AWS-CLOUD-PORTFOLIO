@@ -6,18 +6,21 @@ Professional Focus
 
 This portfolio showcases practical AWS implementations and technical projects involving cloud computing, infrastructure, security, storage, data processing, and cost-aware cloud solutions.
 
-Technical Skills
+## 🚀 Table of Contents
 
-- Launching and configuring ec2
-- Scaling vertically
-- Networking concepts
-- AWS Pricing and Cost Management
-- Amazon RDS
-- AWS VPC peering
-- Amazon RDS
-- Amazon VPC
-- Amazon dynamo D
-- Amazon EFS
+* [🏅 Professional Certification](#-certification)
+* [📁 Hands-on Cloud Projects](#-portfolio)
+  * [01. Launching & Configuring EC2](./01-launching-and-configuring-ec2)
+  * [02. Vertical Scaling](./02-scaling-vertically)
+  * [03. Networking Concepts](./03-networking-concepts)
+  * [04. AWS Cost Optimization & Estimation](./04-aws-cost-optimization-and-estimation)
+  * [05. Amazon RDS](./05-Amazon%20RDS)
+  * [06. AWS VPC Peering](./06-aws%20vpc%20peering)
+  * [07. Amazon DynamoDB](./07-amazon%20dynamoDB)
+  * [08. Amazon EFS](./08-amazon%20efs)
+
+---
+
   
 Hands-On Projects
 
