@@ -56,7 +56,6 @@ Understanding AWS pricing models and applying cost-aware decisions when designin
     <td valign="middle">
       <h3>AWS Certified Cloud Practitioner (CLF-C02)</h3>
       <p>
-        📅 <strong>Active Period:</strong> Sept 19, 2026 – Sept 19, 2029<br>
         🆔 <strong>Credential ID:</strong> 65a7cfb0829f4ea68afb081e1c3dae9c<br>
         🔗 <a href="https://amazon.com" target="_blank">Verify Authentic Credential</a>
       </p>
