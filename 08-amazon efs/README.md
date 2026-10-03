@@ -6,26 +6,6 @@ This project demonstrates the implementation of **Amazon Elastic File System (EF
 
 The implementation covers EFS creation and configuration, security group access, mounting the file system to Linux EC2 instances, and validating that files created on one web server can be accessed by other servers connected to the same EFS file system.
 
-## 🎯 Objectives
-
-* Connect multiple EC2 instances across different Availability Zones to shared EFS storage.
-* Configure network access between the EC2 instances and EFS.
-* Create and configure an Amazon EFS file system.
-* Install the Amazon EFS utilities on Linux EC2 instances.
-* Mount the EFS file system to a local directory.
-* Create and verify files stored on the shared file system.
-* Demonstrate shared file access between multiple web servers.
-
-## 🛠️ AWS Services & Components
-
-* **Amazon EFS**
-* **Amazon EC2**
-* **Amazon VPC**
-* **Availability Zones**
-* **Security Groups**
-* **Amazon EFS Utilities**
-* **Linux EC2 Instances**
-
 ---
 
 # 🔧 Implementation
@@ -34,7 +14,7 @@ The implementation covers EFS creation and configuration, security group access,
 
 Reviewed the EC2 environment containing multiple web server instances deployed across different **Availability Zones**. All three servers were associated with the **Web Server security group** and required access to a common EFS file system.
 
-![EC2 Instances Across Availability Zones](images/8a.png)
+![EC2 Instances Across Availability Zones](images/8A.png)
 
 ---
 
@@ -42,7 +22,7 @@ Reviewed the EC2 environment containing multiple web server instances deployed a
 
 Created and configured the required security group access to allow the web server instances to connect to the EFS file system through its mount targets.
 
-![EFS Security Group Configuration](images/8b.png)
+![EFS Security Group Configuration](images/8B.png)
 
 ---
 
@@ -50,7 +30,7 @@ Created and configured the required security group access to allow the web serve
 
 Created an **Amazon Elastic File System (EFS)** to provide shared file storage that could be accessed by the web server instances.
 
-![Creating EFS](images/8c.png)
+![Creating EFS](images/8C.png)
 
 ---
 
@@ -58,15 +38,13 @@ Created an **Amazon Elastic File System (EFS)** to provide shared file storage t
 
 Configured the EFS file system and verified its assigned **File System ID**:
 
-`fs-08239fd97282f8aed`
-
 The EFS file system was configured to support access from the required EC2 environments.
 
-![EFS Configuration](images/8d.png)
+![EFS Configuration](images/8D.png)
 
-![EFS File System Details](images/8d1.png)
+![EFS File System Details](images/8D1.png)
 
-![EFS Mount Configuration](images/8d2.png)
+![EFS Mount Configuration](images/8D2.png)
 
 ---
 
@@ -76,24 +54,18 @@ Accessed the Linux EC2 instance and prepared the environment for mounting the EF
 
 Created a local `data` directory to serve as the mount point for the shared file system.
 
-```bash
-sudo -i
-mkdir data
-```
 
-![Preparing EC2 for EFS](images/8e.png)
+![Preparing EC2 for EFS](images/8E.png)
 
-![Creating EFS Mount Directory](images/8e1.png)
+![Creating EFS Mount Directory](images/8E1.png)
 
 ---
 
 ## 6. Installing Amazon EFS Utilities
 
 Installed the **Amazon EFS utilities package** on the Linux EC2 instance to provide the required tools for mounting and working with Amazon EFS.
+all -y amazon-efs-utils
 
-```bash
-sudo yum install -y amazon-efs-utils
-```
 
 ![Installing EFS Utilities](images/8f.png)
 
@@ -101,11 +73,9 @@ sudo yum install -y amazon-efs-utils
 
 ## 7. Mounting the EFS File System
 
-Mounted the EFS file system to the local `data` directory using the EFS mount helper with **TLS encryption in transit**.
+Mounted the EFS file system to the local `data` directory using the EFS mount helper 
 
-```bash
-sudo mount -t efs -o tls fs-08239fd97282f8aed:/ data
-```
+
 
 After mounting, the `data` directory provided access to the shared EFS storage from the EC2 instance.
 
@@ -117,17 +87,8 @@ After mounting, the `data` directory provided access to the shared EFS storage f
 
 Created an example log file within the mounted EFS directory to verify that data could be written to the shared file system.
 
-```bash
-sudo bash -c "cat >> efs-1-setup.log"
-```
 
 The example file recorded that **EFS-1 was mounted on Site A**.
-
-The file contents were then verified using:
-
-```bash
-cat efs-1-setup.log
-```
 
 This demonstrated that the EC2 instance could successfully write to and read from the mounted EFS file system.
 
