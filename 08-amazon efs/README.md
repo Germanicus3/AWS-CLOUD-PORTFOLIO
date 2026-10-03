@@ -46,22 +46,13 @@ The EFS file system was configured to support access from the required EC2 envir
 
 ![EFS Mount Configuration](images/8D2.png)
 
----
-
-## 5. Preparing the EC2 Instance for EFS
-
-Accessed the Linux EC2 instance and prepared the environment for mounting the EFS file system.
-
-Created a local `data` directory to serve as the mount point for the shared file system.
-
-
 ![Preparing EC2 for EFS](images/8E.png)
 
 ![Creating EFS Mount Directory](images/8E1.png)
 
 ---
 
-## 6. Installing Amazon EFS Utilities
+## 5. Installing Amazon EFS Utilities
 
 Installed the **Amazon EFS utilities package** on the Linux EC2 instance to provide the required tools for mounting and working with Amazon EFS.
 all -y amazon-efs-utils
@@ -71,7 +62,7 @@ all -y amazon-efs-utils
 
 ---
 
-## 7. Mounting the EFS File System
+## 6. Mounting the EFS File System
 
 Mounted the EFS file system to the local `data` directory using the EFS mount helper 
 
@@ -83,27 +74,27 @@ After mounting, the `data` directory provided access to the shared EFS storage f
 
 ---
 
-## 8. Creating & Verifying a Shared File
+## 7. Creating & Verifying a Shared File
 
 Created an example log file within the mounted EFS directory to verify that data could be written to the shared file system.
 
 
-The example file recorded that **EFS-1 was mounted on Site A**.
+The example file recorded that **EFS-1 was mounted on Site A** and **EFS-1 was mounted on Site B**
 
 This demonstrated that the EC2 instance could successfully write to and read from the mounted EFS file system.
 ![Shared Log File Verification](images/8I.png)
 
 ---
 
-## 9. Configuring Web Server 2 & Verifying Shared Storage
+## 8. Configuring Web Server 3 & Verifying Shared Storage
 
-Configured the second web server to connect to the same EFS file system and verified that the previously created log file was accessible from the second instance.
+Configured the second web server to connect to the same EFS file system and verified that the previously created log file was accessible from the all 3 instances.
+
 
 ![Web Server 2 EFS Configuration](images/8SHARED DATA.png)
 ![Web Server 2 EFS Configuration](images/8diagram DATA.png)
 
 
-The same file could be accessed from multiple EC2 instances because they were connected to the **same EFS file system**, demonstrating shared storage across the web server environment.
 
 ---
 
