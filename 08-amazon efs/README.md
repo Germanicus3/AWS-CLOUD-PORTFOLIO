@@ -91,6 +91,7 @@ Created an example log file within the mounted EFS directory to verify that data
 The example file recorded that **EFS-1 was mounted on Site A**.
 
 This demonstrated that the EC2 instance could successfully write to and read from the mounted EFS file system.
+![Shared Log File Verification](images/8I.png)
 
 ---
 
@@ -98,9 +99,9 @@ This demonstrated that the EC2 instance could successfully write to and read fro
 
 Configured the second web server to connect to the same EFS file system and verified that the previously created log file was accessible from the second instance.
 
-![Web Server 2 EFS Configuration](images/8h.png)
+![Web Server 2 EFS Configuration](images/8SHARED DATA.png)
+![Web Server 2 EFS Configuration](images/8diagram DATA.png)
 
-![Shared Log File Verification](images/8i.png)
 
 The same file could be accessed from multiple EC2 instances because they were connected to the **same EFS file system**, demonstrating shared storage across the web server environment.
 
