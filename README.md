@@ -8,23 +8,21 @@ This portfolio showcases practical AWS implementations and technical projects in
 
 Technical Skills
 
-- Amazon Web Services (AWS)
-- Cloud Computing
-- Amazon S3
-- Amazon EC2
-- AWS Identity and Access Management (IAM)
-- AWS Lambda
+- Launching and configuring ec2
+- Scaling vertically
+- Networking concepts
+- AWS Pricing and Cost Management
+- Amazon RDS
+- AWS VPC peering
 - Amazon RDS
 - Amazon VPC
-- Cloud Security
-- Monitoring and Logging
-- AWS Pricing and Cost Management
-
+- Amazon dynamo D
+- Amazon EFS
+  
 Hands-On Projects
 
 Each project in this portfolio documents practical implementation and includes relevant technical details such as:
 
-- Project objectives
 - Architecture and solution design
 - AWS services used
 - Implementation process
@@ -49,10 +47,25 @@ Exploring how AWS services work together to create practical cloud-based solutio
 💰 Cost Management
 Understanding AWS pricing models and applying cost-aware decisions when designing cloud solutions.
 
-Certification
+## 🏅 Certification
 
-**AWS Certified Cloud Practitioner (CLF-C02)**  
-Certification track and hands-on AWS activities supporting practical knowledge of AWS Cloud services.
+<table border="0">
+  <tr>
+    <td width="200" valign="middle">
+      <img src="images/aws-ccp.png" alt="AWS Certified Cloud Practitioner" width="180">
+    </td>
+    <td valign="middle">
+      <h3>AWS Certified Cloud Practitioner (CLF-C02)</h3>
+      <p>
+        <strong>Issue Date:</strong> September 19, 2026 <br>
+        <strong>Credential ID:</strong> 65a7cfb0829f4ea68afb081e1c3dae9c <br>
+        🔗 <a href="https://amazon.com" target="_blank">Verify Authentic Credential</a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+*Certification track and hands-on AWS activities supporting practical knowledge of AWS Cloud services.*
 
 ---
 
