@@ -90,9 +90,11 @@ This demonstrated that the EC2 instance could successfully write to and read fro
 
 Configured the second web server to connect to the same EFS file system and verified that the previously created log file was accessible from the all 3 instances.
 
+<p align="center">
+  <img src="images/8sharedfile.png" alt="Web Server 2 EFS Configuration" width="48%" />
+  <img src="images/8diagram.png" alt="Architecture Diagram" width="48%" />
+</p>
 
-![Web Server 2 EFS Configuration](images/8sharedfile.png)
-![Web Server 2 EFS Configuration](images/8diagram.png)
 
 
 
