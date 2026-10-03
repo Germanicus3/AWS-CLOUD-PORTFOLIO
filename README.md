@@ -53,14 +53,17 @@ Understanding AWS pricing models and applying cost-aware decisions when designin
 ## 🏅 Certification
 <table border="0">
   <tr>
-    <td width="200" valign="middle">
-      <img src="08-amazon efs/images/ss certificate.png" alt="AWS Certified Cloud Practitioner" width="180">
+    <td width="160" valign="middle" align="center">
+      <a href="YOUR_CREDLY_SHARE_LINK_HERE" target="_blank">
+        <img src="https://credly.com" alt="AWS Certified Cloud Practitioner Badge" width="140">
+      </a>
     </td>
     <td valign="middle">
       <h3>AWS Certified Cloud Practitioner (CLF-C02)</h3>
       <p>
+        📅 <strong>Active Period:</strong> Sept 19, 2026 – Sept 19, 2029<br>
         🆔 <strong>Credential ID:</strong> 65a7cfb0829f4ea68afb081e1c3dae9c<br>
-        🔗 <a href="https://amazon.com" target="_blank">Verify Authentic Credential</a>
+        🔗 <a href="YOUR_CREDLY_SHARE_LINK_HERE" target="_blank">Verify Authentic Credential via Credly</a>
       </p>
     </td>
   </tr>
