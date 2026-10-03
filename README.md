@@ -48,22 +48,22 @@ Exploring how AWS services work together to create practical cloud-based solutio
 Understanding AWS pricing models and applying cost-aware decisions when designing cloud solutions.
 
 ## 🏅 Certification
-
 <table border="0">
   <tr>
     <td width="200" valign="middle">
-      <img src="images/aws-ccp.png" alt="AWS Certified Cloud Practitioner" width="180">
+      <img src="08-amazon efs/images/ss certificate.png" alt="AWS Certified Cloud Practitioner" width="180">
     </td>
     <td valign="middle">
       <h3>AWS Certified Cloud Practitioner (CLF-C02)</h3>
       <p>
-        <strong>Issue Date:</strong> September 19, 2026 <br>
-        <strong>Credential ID:</strong> 65a7cfb0829f4ea68afb081e1c3dae9c <br>
+        📅 <strong>Active Period:</strong> Sept 19, 2026 – Sept 19, 2029<br>
+        🆔 <strong>Credential ID:</strong> 65a7cfb0829f4ea68afb081e1c3dae9c<br>
         🔗 <a href="https://amazon.com" target="_blank">Verify Authentic Credential</a>
       </p>
     </td>
   </tr>
 </table>
+
 
 *Certification track and hands-on AWS activities supporting practical knowledge of AWS Cloud services.*
 
